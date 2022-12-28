@@ -1,0 +1,16 @@
+﻿@page "/fetchWeather"
+
+<h1>Weather Api Data</h1>
+
+@if(Weathers == null)
+{
+    <p><em>Loading...</em></p>
+}
+
+else
+{
+    @foreach(var item in Weathers)
+    {
+        <p>@item.TemperatureC</p>
+    }
+}
