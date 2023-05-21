@@ -17,7 +17,8 @@ namespace BlazorGitHubPagesDemo.Services
             try
             {
                 //var response = await _httpClient.GetFromJsonAsync<IEnumerable<WeatherForecastDto>>("http://localhost:5000/WeatherForecast");
-                var response = await _httpClient.GetFromJsonAsync<IEnumerable<WeatherForecastDto>>("https://www.kathboli.com/WeatherForecast");
+                // var response = await _httpClient.GetFromJsonAsync<IEnumerable<WeatherForecastDto>>("https://www.kathboli.com/WeatherForecast");
+                var response = await _httpClient.GetFromJsonAsync<IEnumerable<WeatherForecastDto>>("https://kunba.in/WeatherForecast");
                 return response;
             }
             catch (Exception ex)
