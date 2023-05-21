@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "BlazorGitHubPagesDemo.dll": "sha256-FzO4bwtNwxdBHnJHR6NW6gQ1C6doQXw9jhSMxitKOGM=",
+      "BlazorGitHubPagesDemo.dll": "sha256-nsojN\/MlvMxrqnhnWFgJMAkmgIubDbwiL4COxuWZfi4=",
       "Kathboli.Shared.dll": "sha256-rV0JWrcHe8qzO6GjOu2ZciKypsO9SL0V63n4VROSD18=",
       "Microsoft.AspNetCore.Components.dll": "sha256-U\/13Q5rVTtpIksXNgHV5b+RdHiwyuSejvbu5+VFJDcg=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-swhllcB8+ISyD3Ea\/Bqq5pPKpxnXh369OZQx5xow18s=",
