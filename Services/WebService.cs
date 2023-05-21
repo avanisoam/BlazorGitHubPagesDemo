@@ -21,7 +21,7 @@ namespace BlazorGitHubPagesDemo.Services
                 var response = await _httpClient.GetFromJsonAsync<IEnumerable<WeatherForecastDto>>("https://kunba.in/WeatherForecast");
                 return response;
             }
-            catch (Exception ex)
+            catch (Exception ex1)
             {
 
                 throw;
